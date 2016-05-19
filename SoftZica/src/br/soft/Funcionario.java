@@ -3,6 +3,7 @@ package br.soft;
 import java.util.Date;
 
 public class Funcionario {
+	private int cod;
 	private String nome;
 	private String cpf;
 	private Date nascimento;
@@ -23,6 +24,12 @@ public class Funcionario {
 	}
 	public void setNascimento(Date nascimento) {
 		this.nascimento = nascimento;
+	}
+	public int getCod() {
+		return cod;
+	}
+	public void setCod(int cod) {
+		this.cod = cod;
 	}
 	
 	
